@@ -1,0 +1,501 @@
+ /* Reset some default styles */
+ body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 0;
+}
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero section styles */
+.hero {
+    background: url('sdgs.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.hero h1 {
+    font-size: 36px;
+    color: black;
+}
+.hero h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: black;
+}
+.cta-buttons {
+    margin-top: 20px;
+}
+.cta-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+/* Introduction section styles */
+.introduction {
+    padding: 40px 20px;
+    text-align: center;
+}
+.introduction h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.introduction p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Featured Initiatives section styles */
+.featured-initiatives {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+}
+.featured-initiatives h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.initiatives {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.initiative-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 300px;
+    flex: 1;
+}
+.initiative-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.initiative-item p {
+    font-size: 16px;
+}
+
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 0;
+}
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Mission & Vision section styles */
+.mission-vision {
+    padding: 40px 20px;
+    text-align: center;
+}
+.mission-vision h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.mission-vision p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* History section styles */
+.history {
+    padding: 40px 20px;
+    background-color: #eaeaee;
+}
+.history h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.history p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Team section styles */
+.team {
+    padding: 40px 20px;
+}
+.team h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.team-member {
+    text-align: center;
+    max-width: 300px;
+}
+
+
+.team-member h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.team-member p {
+    font-size: 16px;
+}
+
+
+/* sdgs*/
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 0;
+}
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* SDGs Overview section styles */
+.sdgs-overview {
+    padding: 40px 20px;
+    text-align: center;
+}
+.sdgs-overview h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.sdgs-overview p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* SDGs Focus section styles */
+
+.sdgs-focus {
+    padding: 40px 20px;
+}
+.sdgs-focus h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sdg-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+   
+    
+    
+}
+.sdg-card {
+    
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 300px;
+    text-align: center;
+    background: url(pic.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    opacity: 0.80;
+    
+}
+.sdg-card img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+.sdg-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    opacity: 67;
+   
+}
+.sdg-card p {
+    font-size: 19px;
+    font-weight: bolder;
+   opacity: 45;
+}
+
+/* SDGs Progress section styles */
+.sdgs-progress {
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+}
+.sdgs-progress h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.charts {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.chart-container {
+    width: 100%;
+    max-width: 500px;
+}
+
+/* PROGRAM */
+
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 0;
+}
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Health Programs section styles */
+.health-programs {
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+}
+.health-programs h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.program-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.program {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.program h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.program p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.program h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+/* Education Programs section styles */
+.education-programs {
+    padding: 40px 20px;
+}
+.education-programs h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.program-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Integrated Initiatives section styles */
+.integrated-initiatives {
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+}
+.integrated-initiatives h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.initiative {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.initiative h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.initiative p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+
+
+

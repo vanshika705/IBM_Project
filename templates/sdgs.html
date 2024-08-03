@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDGs - Integrated Health and Education Ecosystem</title>
+    <link rel="stylesheet" href="static\style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">Integrated Health and Education Ecosystem</div>
+            <nav>
+                <ul>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/program">Programs</a></li>
+                    <li><a href="/resources">Resources</a></li>
+                    <li><a href="/news">News</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Overview Section -->
+    <section class="sdgs-overview">
+        <div class="container">
+            <h2>Overview of the Sustainable Development Goals (SDGs)</h2>
+            <p>The Sustainable Development Goals (SDGs) are a collection of 17 global goals set by the United Nations General Assembly in 2015. They are designed to address the most pressing issues facing our world, including poverty, inequality, climate change, environmental degradation, peace, and justice.</p>
+            <p>In the context of health and education, the SDGs aim to ensure healthy lives and promote well-being for all at all ages, as well as ensure inclusive and equitable quality education and promote lifelong learning opportunities for all.</p>
+        </div>
+    </section>
+
+    <!-- Our Focus Section -->
+    <section class="sdgs-focus">
+        <div class="container">
+            <h2>Our Focus on SDGs</h2>
+            <div class="sdg-cards">
+                <div class="sdg-card" >
+                    
+                    <h3>Goal 3: Good Health and Well-being</h3>
+                    <p>We are dedicated to improving health outcomes by enhancing access to healthcare services, promoting preventive care, and addressing health disparities.</p>
+                </div>
+                <div class="sdg-card">
+                    
+                    <h3>Goal 4: Quality Education</h3>
+                    <p>Our initiatives focus on providing quality education and lifelong learning opportunities, supporting educational institutions, and promoting inclusive education.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Progress Section -->
+    <section class="sdgs-progress">
+        <div class="container">
+            <h2>Recent Progress Towards the SDGs</h2>
+            <div class="charts">
+                <div class="chart-container">
+                    <canvas id="healthChart"></canvas>
+                </div>
+                <div class="chart-container">
+                    <canvas id="educationChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JavaScript for Charts -->
+    <script>
+        // chart for Goal 3: Good Health and Well-being
+        const healthCtx = document.getElementById('healthChart').getContext('2d');
+        new Chart(healthCtx, {
+            type: 'bar',
+            data: {
+                labels: ['Access to Healthcare', 'Preventive Care', 'Health Education'],
+                datasets: [{
+                    label: 'Progress in Health Initiatives',
+                    data: [75, 60, 85], 
+                    backgroundColor: ['#007bff', '#28a745', '#ffc107'],
+                    borderColor: '#fff',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+
+        // chart for Goal 4: Quality Education
+        const educationCtx = document.getElementById('educationChart').getContext('2d');
+        new Chart(educationCtx, {
+            type: 'bar',
+            data: {
+                labels: ['Educational Access', 'Teacher Training', 'Community Programs'],
+                datasets: [{
+                    label: 'Progress in Education Initiatives',
+                    data: [80, 70, 90], 
+                    backgroundColor: ['#007bff', '#28a745', '#ffc107'],
+                    borderColor: '#fff',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
